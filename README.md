@@ -5,4 +5,4 @@ Supports basic arithmetic operations ➕ ➖ ✖️ ➗ and dark/light mode swit
 
 🚀 Live Demo
 
-[**Try it here**](https://github.com/Ken-aky/Calculator)
+[**Try it here**](https://ken-aky.github.io/Calculator/)
