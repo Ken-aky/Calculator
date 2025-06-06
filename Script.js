@@ -128,7 +128,7 @@ function colorSwitch() {
             };
         }
         
-        document.querySelector('.SwitchIcon').src = "/Images/dark.png";
+        document.querySelector('.SwitchIcon').src = "Images/dark.png";
 
         isWhite = true;
     } else {
@@ -161,7 +161,7 @@ function colorSwitch() {
             };
         }
         
-        document.querySelector('.SwitchIcon').src = "/Images/light.png";
+        document.querySelector('.SwitchIcon').src = "Images/light.png";
 
         isWhite = false;
     }
