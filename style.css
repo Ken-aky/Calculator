@@ -89,3 +89,54 @@ body{
     margin: 0 auto;
     pointer-events: none; 
 }
+
+@media (max-width: 600px) {
+    .Main-container {
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+    }
+
+    .Calculator-container {
+        width: 96vw;
+        min-width: unset;
+        max-width: unset;
+        height: 90vh;
+        padding: 0;
+        border-radius: 10px;
+    }
+
+    .display {
+        width: 96vw;
+        font-size: 18px;
+        margin-top: 8px;
+        border-radius: 10px;
+        min-height: 60px;
+    }
+
+    .ResultDisplay {
+        font-size: 1.5rem;
+    }
+
+    .btn-grid {
+        width: 96vw;
+        margin-top: 15px;
+        margin-bottom: 8px;
+        flex-wrap: wrap;
+    }
+
+    .column button {
+        width: 52px;
+        height: 52px;
+        font-size: 1.2rem;
+    }
+
+    .column {
+        gap: 6px;
+    }
+
+    .SwitchIcon {
+        width: 20px;
+        height: 20px;
+    }
+}
