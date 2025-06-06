@@ -3,7 +3,6 @@ let number2 = "";
 let operator = null;
 let result = null;
 let resetOnNextInput = false;
-let isWhite = false;
 
 function getNumber(button) {
     if (operator === null) {
@@ -95,7 +94,7 @@ function display(element) {
     document.querySelector(".ResultDisplay").innerHTML = element;
 }
 
-
+let isWhite = false;
 
 function colorSwitch() {
     if (isWhite === false) {
