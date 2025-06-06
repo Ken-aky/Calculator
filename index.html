@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Main-container">
+        <div class="Calculator-container">
+
+            <section class="display" id="display">
+                <h1 class="ResultDisplay">0</h1>
+            </section>
+
+            <section class="btn-grid">
+                <div class="column">
+                    <button onclick="ClearAll()">AC</button>
+                    <button onclick="getNumber(this)">7</button>
+                    <button onclick="getNumber(this)">4</button>
+                    <button onclick="getNumber(this)">1</button>
+                    <button onclick="colorSwitch()"><img src="/Images/dark-mode (2).png" class="SwitchIcon"></button>
+                </div>
+                <div class="column">
+                    <button onclick="signChange()">+/-</button>
+                    <button onclick="getNumber(this)">8</button>
+                    <button onclick="getNumber(this)">5</button>
+                    <button onclick="getNumber(this)">2</button>
+                    <button onclick="getNumber(this)">0</button>
+                </div>
+                <div class="column">
+                    <button onclick="getOperator(this)">%</button>
+                    <button onclick="getNumber(this)">9</button>
+                    <button onclick="getNumber(this)">6</button>
+                    <button onclick="getNumber(this)">3</button>
+                    <button onclick="getNumber(this)">.</button>
+                </div>
+                <div class="column">
+                    <button onclick="getOperator(this)">/</button>
+                    <button onclick="getOperator(this)">X</button>
+                    <button onclick="getOperator(this)">-</button>
+                    <button onclick="getOperator(this)">+</button>
+                    <button onclick="getResult()">=</button>
+                </div>
+            </section>
+        </div>
+    </div>
+
+<script src="Script.js"></script>
+</body>
+</html>
